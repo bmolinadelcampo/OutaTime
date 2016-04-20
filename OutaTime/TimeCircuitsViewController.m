@@ -50,7 +50,7 @@
     //
     // 2. The view should be titled "Time Circuits"
     
-    UINavigationItem *navigationItem = [[UINavigationItem alloc] initWithTitle:@"Time Circuits"];    //
+    self.title = @"Time Circuits";    //
     
     //
     // 3. This is a good place to initialize the objects that will be used later on.
@@ -178,7 +178,7 @@
         //
         // 18. If it's not yet set to 88, we want to increment the current speed variable by 1.
         //
-        self.currentSpeed += 1;
+        self.currentSpeed++;
         //
         // 19. Here we want to update the speed label to reflect the current speed.
         //
